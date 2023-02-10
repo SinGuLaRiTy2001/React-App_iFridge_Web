@@ -13,6 +13,11 @@ class WebPage extends React.Component {
     getDish() {
         var url = decodeURI(window.location.href);
         var argIndex = url.split("?r=");
+        if (argIndex[1] == 'undefined' || argIndex[1] == null || argIndex.length == 0)
+        {
+            alert("You haven't chosen a dish!");
+            window.location.replace("/#/Recipe?r=Vegetable");
+        }
         return argIndex[1];
     };
     render() {
