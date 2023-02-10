@@ -32,7 +32,7 @@ const Dish = () => {
                         dish.map((item, index) => (
                             <div className='background'>
                                 <img className='dish_pic' src={item.img} />
-                                <a href={'/Recipe?r=' + item.name} target='_blank'>
+                                <a href={'/#/Recipe?r=' + item.name} target='_blank'>
                                     <img className='sign_pic' src='./image/recipe_green.svg' />
                                     <div className='container_dish'>
                                         <h2>{item.name}</h2>
