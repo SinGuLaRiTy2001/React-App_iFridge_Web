@@ -7,7 +7,7 @@ import {nav} from "../../Data/Data";
 const Header = () => {
     return (
         <>
-            
+
             <header>
 
                 <div className='container flex'>
@@ -24,11 +24,26 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='button flex'>
-                        <h4>
+                        <div className='dropdown'>
+                            <button className='dropbtn'>
+                                <i className='fas fa fa-bars'></i> My Friends
+                            </button>
+                            <div className='dropdown-content'>
+                                <p>Ayla Espelindo</p>
+                                <p>Amy Rosewood</p>
+                                <p>Vittoria Ferralo</p>
+                                <p>Rena Demara</p>
+                                <p>Jack Olenyeva</p>
+                                <p>Daisy Clover</p>
+                                <p>Elle Edition</p>
+                                <p>Laurel Valenra</p>
+                            </div>
+                        </div>
+                        {/*<h4>
                             <span>2</span> My List
-                        </h4>
+                        </h4>*/}
                         <button className='btn1'>
-                            <i className='fas fa fa-sign-out'></i> Sign In
+                            <i className='fas fa fa-sign-out'></i> Sign Out
                         </button>
                     </div>
                     <div className='toggle'>

@@ -4,4 +4,4 @@ This is the implementation repository for the web application prototype. The dem
 
 The contributor in this project are Jian Wen, Yu Xia, Tangyujun Han, and Xiangyu Liu.
 
-iFridge
+—— iFridge developers

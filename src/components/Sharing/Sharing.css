@@ -1,0 +1,56 @@
+.like-img{
+    width: 300px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.small-box{
+    background-color: #ece9e9;
+    width:600px;
+    margin: auto;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 20%);
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 2px;
+}
+.large-box{
+    margin: auto;
+}
+.like-btn{
+    border: 2px solid rgb(0, 130, 252);
+    background-color: rgb(0, 130, 252);
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-right: 20px;
+}
+.name-img{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 20px
+}
+.name-box {
+    display: inline-block;
+    padding-right: 100px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.like-person {
+    display: inline-block;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.like-share {
+    display: inline-block;
+    padding-right: 20px;
+}
+.content-like {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}

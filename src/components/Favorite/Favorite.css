@@ -1,0 +1,50 @@
+.leftcolumn {
+    float: left;
+    width: 21%;
+    margin-left: 28%;
+    padding-right: 10px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 21%;
+    padding-left: 10px;
+}
+.card {
+    background-color: #ece9e9;
+    padding: 10px;
+    margin-top: 15px;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 30%);
+}
+
+/* 清除列之后的浮动 */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.fav_pic{
+    height: 240px;
+    display: block;
+    margin-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+.fav-ingre{
+    display: inline-block;
+    padding: 10px;
+}
+.fav-btn{
+    background-color: rgb(0, 130, 252);
+    padding:5px 5px;
+}
+.fav_sign{
+    height: 40px;
+    display: inline-block;
+}
