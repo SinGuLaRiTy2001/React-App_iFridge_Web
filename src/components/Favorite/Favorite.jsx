@@ -47,9 +47,11 @@ const Favorite = () => {
                                         <span className='fav-title'>
                                             <h2>{item.name}</h2>
                                         </span>
-                                        <span className='fav-sign'>
-                                            <img className='fav_sign' src='./image/recipe_yellow.svg' />
-                                        </span>
+                                        <a href={'/#/Recipe?r=' + item.name} target='_blank'>
+                                            <span className='fav-sign'>
+                                                <img className='fav_sign' src='./image/recipe_yellow.svg' />
+                                            </span>
+                                        </a>
                                     </div>
                                     <div className='image-card'>
                                         <img className='fav_pic' src={item.source} />
